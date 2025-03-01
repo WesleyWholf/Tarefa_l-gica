@@ -33,14 +33,14 @@ else:
 
 #R: O tipo de dado utilizado é do tipo float já que a variável peso possui um valor com parte decimal.
 
-peso = 75.8;
+peso = float(input("Digite seu peso:"));
 
-print(peso)
+print(f"O seu peso é: {peso}kg");
 
 #5 - Crie uma variável chamada cidade e atribua um valor do tipo string (por exemplo,
 #"Guarapuava"). Imprima o valor da variável.
 
-cidade = "Pitanga"
+cidade = "Pitanga."
 print(cidade)
 
 #6 - Crie uma variável numero e atribua um valor a ela. Depois, use if-else para
@@ -49,11 +49,11 @@ print(cidade)
 numero1 = 49;
 
 if numero1 > 0:
-    print("O número é positivo");
+    print("O número é positivo.");
 elif numero1 == 0:
-    print("O número é neutro");
+    print("O número é neutro.");
 else:
-    print("O número é negativo");
+    print("O número é negativo.");
 
 #7 - Crie uma variável idade e atribua um valor a ela. Use if-else para verificar se a
 #pessoa pode votar (idade maior ou igual a 16). Qual tipo de dado é utilizado nessa
@@ -85,9 +85,9 @@ else:
 nota = 7;
 
 if nota >= 5:
-    print("Aprovado")
+    print("Aprovado.")
 else:
-    print("Reprovado")
+    print("Reprovado.")
 
 #10 - Crie uma variável senha e atribua o valor "12345". Use uma condição if para
 #verificar se a senha é igual a "12345" e imprima "Acesso permitido" se for verdade.
@@ -96,7 +96,7 @@ else:
 senha = int(input("Insira a senha:"));
 
 if senha == (12345):
-    print("Acesso permitido")
+    print("Acesso permitido!")
 else:
-    print("Acesso negado")
+    print("Acesso negado.")
 
