@@ -87,8 +87,8 @@ def atividade(slc):
             
         case 10:
             #10 - Peça um número e calcule sua potência de 2.
-                numero = float(input("Digite um número:"))
-                print(f"A potência de {numero} é {numero * numero}")
+                numero = int(input("Digite um número:"))
+                print(f"{pow(numero, 2)}")
 
         case 11:
             #11 - Peça um número e formate para inteiro. Informe se ele é positivo, negativo ou
